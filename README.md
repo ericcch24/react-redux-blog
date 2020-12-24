@@ -2,7 +2,7 @@
 
 使用 React 實作的簡易部落格。
 
-[部落格連結](https://ericcch24.github.io/w24-react-redux-blog/#/w24-react-redux-blog/)
+[部落格連結](https://ericcch24.github.io/w24-react-redux-blog/#/)
 
 ![](https://i.imgur.com/TEj0XcP.png)
 
