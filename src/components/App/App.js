@@ -27,7 +27,7 @@ function App() {
 
   return (
     <Root>
-      <Router>
+      <Router basename="/w24-react-redux-blog">
         <Header />
         <Switch>
           <Route exact path="/">
