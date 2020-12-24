@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# React 部落格
 
-## Available Scripts
+使用 React 實作的簡易部落格。
 
-In the project directory, you can run:
+[部落格連結](https://ericcch24.github.io/w24-react-redux-blog/#/w24-react-redux-blog/)
 
-### `npm start`
+![](https://i.imgur.com/TEj0XcP.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 頁面與功能說明
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- 登入頁面：輸入帳號密碼後可以登入。
+- 註冊頁面：使用者可以註冊，**因後端密碼為明碼儲存，註冊後密碼將強制轉換為 `Lidemy`**。
+- About 頁面：顯示關於這個部落格的描述。
+- 文章列表頁面：可以看到所有文章，一頁只會顯示 5 筆，有分頁功能可以換頁。
+- 單篇文章頁面：點選文章標題可以看到文章完整內容。
+- 發表文章頁面：登入後可以輸入標題與內文發布文章。
 
-### `npm test`
+- 編輯文章：登入後可以在單篇文章頁面編輯文章。
+- 刪除文章：登入後可以在單篇文章頁面刪除文章
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 使用工具
