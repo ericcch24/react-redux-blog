@@ -91,26 +91,27 @@ export default function Header() {
           </Nav>
         </NavbarList>
       </LeftContainer>
-
-      <NavbarList>
-        {user ? (
-          <>
-            <Nav to="/newpost" $active={location.pathname === "/newpost"}>
-              發布文章
-            </Nav>
-            <Nav onClick={handleLogout}>登出</Nav>
-          </>
-        ) : (
-          <>
-            <Nav to="/register" $active={location.pathname === "/register"}>
-              註冊
-            </Nav>
-            <Nav to="/login" $active={location.pathname === "/login"}>
-              登入
-            </Nav>
-          </>
-        )}
-      </NavbarList>
+      {!isLoadingGetMe && (
+        <NavbarList>
+          {user ? (
+            <>
+              <Nav to="/newpost" $active={location.pathname === "/newpost"}>
+                發布文章
+              </Nav>
+              <Nav onClick={handleLogout}>登出</Nav>
+            </>
+          ) : (
+            <>
+              <Nav to="/register" $active={location.pathname === "/register"}>
+                註冊
+              </Nav>
+              <Nav to="/login" $active={location.pathname === "/login"}>
+                登入
+              </Nav>
+            </>
+          )}
+        </NavbarList>
+      )}
     </HeaderContainer>
   );
 }
