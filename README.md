@@ -56,4 +56,4 @@
 - Redux Thunk: 處理 API 串接的函式執行。
 - React Router: 處理分頁連結。
 - styled components: React component 的樣式製作。
-- 文章與使用者資料皆來自 Lidemy 學生專用 API Server。
+- 文章與使用者資料皆來自 [Lidemy 學生專用 API Server](https://github.com/Lidemy/lidemy-student-json-api-server)。
