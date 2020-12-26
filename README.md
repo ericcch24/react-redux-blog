@@ -4,6 +4,8 @@
 
 [部落格連結](https://ericcch24.github.io/w24-react-redux-blog/)
 
+註：因後端系統密碼為明文儲存，註冊後密碼將強制轉換為 `Lidemy`
+
 ![](https://i.imgur.com/TEj0XcP.png)
 
 ## 部落格架構
@@ -50,7 +52,8 @@
 
 - React: 以 function component + hooks 的方法實作。
 - Redux: 儲存 user 與 post 相關的 state 與 dispatch action。
-- Redux toolkit: 整合 action 與 reducer。
-- Redux thunk: 處理 API 串接的函式執行。
-- React-router-dom: 處理分頁連結。
+- Redux Toolkit: 整合 action 與 reducer。
+- Redux Thunk: 處理 API 串接的函式執行。
+- React Router: 處理分頁連結。
 - styled components: React component 的樣式製作。
+- 文章與使用者資料皆來自 Lidemy 學生專用 API Server。
