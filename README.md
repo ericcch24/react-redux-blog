@@ -1,6 +1,6 @@
 # React 部落格
 
-使用 React 實作的簡易部落格。
+使用 React 實作的簡易部落格，並以 Redux 儲存 state 與執行 action dispatch，其中有基本的文章 CRUD 功能，以及使用者的註冊與登入機制。
 
 [部落格連結](https://ericcch24.github.io/w24-react-redux-blog/)
 
@@ -14,8 +14,14 @@
 - 文章列表頁面：可以看到所有文章，一頁只會顯示 5 筆，有分頁功能可以換頁。
 - 單篇文章頁面：點選文章標題可以看到文章完整內容。
 - 發表文章頁面：登入後可以輸入標題與內文發布文章。
-
 - 編輯文章：登入後可以在單篇文章頁面編輯文章。
-- 刪除文章：登入後可以在單篇文章頁面刪除文章
+- 刪除文章：登入後可以在單篇文章頁面刪除文章。
 
 ## 使用工具
+
+- React: 以 function component + hooks 的方法實作。
+- Redux: 儲存 user 與 post 相關的 state 與 dispatch action。
+- Redux toolkit: 整合 action 與 reducer。
+- Redux thunk: 處理 API 串接的函式執行。
+- React-router-dom: 處理分頁連結。
+- styled components: React component 的樣式製作。
