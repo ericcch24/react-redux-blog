@@ -4,6 +4,7 @@ import { useHistory, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
   setIsLoadingUser,
+  setIsLoadingGetMe,
   setErrorMessage,
   userLogin,
   getUser,
@@ -32,6 +33,7 @@ export default function LoginPage() {
       if (!localStorage.token) return;
 
       dispatch(getUser()).then((response) => {
+        dispatch(setIsLoadingGetMe(false));
         if (response.ok === 1) {
           history.push("/");
         }

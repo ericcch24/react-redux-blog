@@ -11,7 +11,7 @@ import {
   EditPage,
 } from "../../pages/";
 import Header from "../Header/";
-import { getUser } from "../../redux/reducers/userReducer";
+import { getUser, setIsLoadingGetMe } from "../../redux/reducers/userReducer";
 import { useDispatch } from "react-redux";
 
 const Root = styled.div`
@@ -23,6 +23,7 @@ function App() {
 
   useEffect(() => {
     dispatch(getUser());
+    dispatch(setIsLoadingGetMe(false));
   }, [dispatch]);
 
   return (
