@@ -1,6 +1,6 @@
 import { getAuthToken } from "./utils";
 
-const BASE_URL = "https://student-json-api.lidemy.me";
+const BASE_URL = "https://react-blog-json-server.herokuapp.com";
 
 export const getAllPosts = () => {
   return fetch(`${BASE_URL}/posts?_start=0&_end=0&_sort=createdAt&_order=desc`);

@@ -6,7 +6,7 @@
 
 註：因後端系統密碼為明文儲存，註冊後密碼將強制轉換為 `Lidemy`
 
-![](https://i.imgur.com/TEj0XcP.png)
+![](https://i.imgur.com/aGxntf4.png)
 
 ## 部落格架構
 
@@ -56,4 +56,4 @@
 - Redux Thunk: 處理 API 串接的函式執行。
 - React Router: 處理分頁連結。
 - styled components: React component 的樣式製作。
-- 文章與使用者資料皆來自 [Lidemy 學生專用 API Server](https://github.com/Lidemy/lidemy-student-json-api-server)。
+- 文章與使用者資料皆來自 [Json API Server](https://react-blog-json-server.herokuapp.com/)(部署於 Heroku)。
