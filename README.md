@@ -4,7 +4,8 @@
 
 [部落格連結](https://ericcch24.github.io/w24-react-redux-blog/)
 
-註：因後端系統密碼為明文儲存，註冊後密碼將強制轉換為 `Lidemy`
+註 1：因後端系統密碼為明文儲存，註冊後密碼將強制轉換為 `Lidemy`
+註 2：由於後端資料庫部屬於 Heroku，開啟首頁後文章需要稍等待主機喚醒後才會顯示。
 
 ![](https://i.imgur.com/aGxntf4.png)
 
@@ -56,4 +57,4 @@
 - Redux Thunk: 處理 API 串接的函式執行。
 - React Router: 處理分頁連結。
 - styled components: React component 的樣式製作。
-- 文章與使用者資料皆來自 [Json API Server](https://react-blog-json-server.herokuapp.com/)(部署於 Heroku)。
+- 文章與使用者資料皆來自 [Json API Server](https://react-blog-json-server.herokuapp.com/) (部署於 Heroku)。
