@@ -2,13 +2,13 @@
 
 使用 React 實作的簡易部落格，並以 Redux 儲存 state 與執行 action dispatch，其中有基本的文章 CRUD 功能，以及使用者的註冊與登入機制。
 
-[部落格連結](https://ericcch24.github.io/w24-react-redux-blog/)
+[部落格連結](https://ericcch24.github.io/react-redux-blog/)
 
 註 1：因後端系統密碼為明文儲存，註冊後密碼將強制轉換為 `Lidemy`
 
 註 2：由於後端資料庫部屬於 Heroku，開啟首頁後文章需要稍等待主機喚醒後才會顯示。
 
-![](https://i.imgur.com/aGxntf4.png)
+![](https://i.imgur.com/WCJDNeT.png)
 
 ## 部落格架構
 
