@@ -16,7 +16,7 @@
     "redux": "^4.0.5",
     "styled-components": "^5.2.1"
   },
-  "homepage": "https://ericcch24.github.io/w24-react-redux-blog",
+  "homepage": "https://ericcch24.github.io/react-redux-blog",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
