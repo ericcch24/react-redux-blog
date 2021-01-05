@@ -22,6 +22,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    document.title = "Eric's Blog";
     dispatch(getUser());
     dispatch(setIsLoadingGetMe(false));
   }, [dispatch]);

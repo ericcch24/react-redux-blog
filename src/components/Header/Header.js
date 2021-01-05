@@ -81,7 +81,7 @@ export default function Header() {
   return (
     <HeaderContainer>
       <LeftContainer>
-        <Brand>我的第一個部落格</Brand>
+        <Brand>艾瑞克的部落格</Brand>
         <NavbarList>
           <Nav to="/" $active={location.pathname === "/"}>
             首頁
