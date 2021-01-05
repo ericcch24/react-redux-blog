@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/w24-react-redux-blog/static/js/main.0e4fe44e.chunk.js",
-    "main.js.map": "/w24-react-redux-blog/static/js/main.0e4fe44e.chunk.js.map",
-    "runtime-main.js": "/w24-react-redux-blog/static/js/runtime-main.fc63096f.js",
-    "runtime-main.js.map": "/w24-react-redux-blog/static/js/runtime-main.fc63096f.js.map",
-    "static/js/2.70f48149.chunk.js": "/w24-react-redux-blog/static/js/2.70f48149.chunk.js",
-    "static/js/2.70f48149.chunk.js.map": "/w24-react-redux-blog/static/js/2.70f48149.chunk.js.map",
-    "index.html": "/w24-react-redux-blog/index.html",
-    "static/js/2.70f48149.chunk.js.LICENSE.txt": "/w24-react-redux-blog/static/js/2.70f48149.chunk.js.LICENSE.txt"
+    "main.js": "/react-redux-blog/static/js/main.0e4fe44e.chunk.js",
+    "main.js.map": "/react-redux-blog/static/js/main.0e4fe44e.chunk.js.map",
+    "runtime-main.js": "/react-redux-blog/static/js/runtime-main.01ecad1b.js",
+    "runtime-main.js.map": "/react-redux-blog/static/js/runtime-main.01ecad1b.js.map",
+    "static/js/2.fad7dc31.chunk.js": "/react-redux-blog/static/js/2.fad7dc31.chunk.js",
+    "static/js/2.fad7dc31.chunk.js.map": "/react-redux-blog/static/js/2.fad7dc31.chunk.js.map",
+    "index.html": "/react-redux-blog/index.html",
+    "static/js/2.fad7dc31.chunk.js.LICENSE.txt": "/react-redux-blog/static/js/2.fad7dc31.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc63096f.js",
-    "static/js/2.70f48149.chunk.js",
+    "static/js/runtime-main.01ecad1b.js",
+    "static/js/2.fad7dc31.chunk.js",
     "static/js/main.0e4fe44e.chunk.js"
   ]
 }
